@@ -1,0 +1,6 @@
+# config/routes.yaml
+
+api_routes:
+    resource: 'api_routes.yaml'
+    prefix: /api
+    

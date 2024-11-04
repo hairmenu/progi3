@@ -1,0 +1,9 @@
+# config/routes/api_routes.yaml
+
+get_prices:
+    path: /price/{price}/{type}
+    controller: App\Controller\PriceController::index
+    methods: GET
+    defaults: { _format: json }
+
+    
